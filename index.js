@@ -53,17 +53,17 @@ async function run() {
     });
 
     //  Select Class Collection
-    // app.post('/api/classes', async (req, res) => {
-    //   const item = req.body;
-    //   console.log(item)
-    //   const result = await classes.insertOne(item);
-    //   res.send(result);
-    // })
+    app.post('/api/classes', async (req, res) => {
+      const item = req.body;
+      console.log(item)
+      const result = await classes.insertOne(item);
+      res.send(result);
+    })
 
-    // app.get('/api/classes', async (req, res) => {
-    //   const result = await classes.find().toArray();
-    //   res.send(result);
-    // })
+    app.get('/api/classes', async (req, res) => {
+      const result = await classes.find().toArray();
+      res.send(result);
+    })
 
     // app.get('/api/instructors', async (req, res) => {
     //   const result = await instructors.find().toArray();
