@@ -77,10 +77,10 @@ async function run() {
       const result = await SelectedClasses.insertOne(item);
       res.send(result);
     })
-    // app.get('/selectedClasses', async (req, res) => {
-    //   const result = await SelectedClasses.find().toArray();
-    //   res.send(result);
-    // })
+    app.get('/selectedClasses', async (req, res) => {
+      const result = await SelectedClasses.find().toArray();
+      res.send(result);
+    })
 
 
 
