@@ -65,10 +65,10 @@ async function run() {
       res.send(result);
     })
 
-    // app.get('/api/instructors', async (req, res) => {
-    //   const result = await instructors.find().toArray();
-    //   res.send(result);
-    // })
+    app.get('/api/instructors', async (req, res) => {
+      const result = await instructors.find().toArray();
+      res.send(result);
+    })
 
     //  Select Class Collection
     // app.post('/selectedClasses', async (req, res) => {
