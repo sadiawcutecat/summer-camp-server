@@ -85,28 +85,28 @@ async function run() {
 
 
     // Manage Classes
-    // app.put("/classRequest/:id", async (req, res) => {
-    //   const id = req.params.id;
-    //   console.log(id)
-    //   const updatedRequest = req.body;
-    //   console.log(updatedRequest)
-    //   const filter = { _id: new ObjectId(id) };
+    app.put("/classRequest/:id", async (req, res) => {
+      const id = req.params.id;
+      console.log(id)
+      const updatedRequest = req.body;
+      console.log(updatedRequest)
+      const filter = { _id: new ObjectId(id) };
 
-    //   console.log("filter", filter)
-    //   const options = { upsert: true };
-    //   const updateDoc = {
-    //     $set: {
-    //       chk: updatedRequest.chk,
-    //     },
-    //   };
-    //   const result = await classes.updateOne(
-    //     filter,
-    //     updateDoc,
-    //     options
-    //   );
-    //   console.log(result)
-    //   res.json(result);
-    // });
+      console.log("filter", filter)
+      const options = { upsert: true };
+      const updateDoc = {
+        $set: {
+          chk: updatedRequest.chk,
+        },
+      };
+      const result = await classes.updateOne(
+        filter,
+        updateDoc,
+        options
+      );
+      console.log(result)
+      res.json(result);
+    });
 
     // manage users
  
