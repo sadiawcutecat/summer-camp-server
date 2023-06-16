@@ -71,12 +71,12 @@ async function run() {
     })
 
     //  Select Class Collection
-    // app.post('/selectedClasses', async (req, res) => {
-    //   const item = req.body;
-    //   console.log(item)
-    //   const result = await SelectedClasses.insertOne(item);
-    //   res.send(result);
-    // })
+    app.post('/selectedClasses', async (req, res) => {
+      const item = req.body;
+      console.log(item)
+      const result = await SelectedClasses.insertOne(item);
+      res.send(result);
+    })
     // app.get('/selectedClasses', async (req, res) => {
     //   const result = await SelectedClasses.find().toArray();
     //   res.send(result);
