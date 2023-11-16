@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Arabic for Beginners",
+        "photo": "https://i.ibb.co/jwnXhDH/urdu.png",
+        "Instructor_name": "Ahmed Salah",
+        "Instructor_email": "sadiasalam62@gmail.com",
+        "price": "5000",
+        "Available_seat": "66",
+        "chk": "approved"
+    },
+    {
+        "name": "Advanced Turkish",
+        "photo": "https://i.ibb.co/0pbb06L/turkish.png",
+        "Instructor_name": "Mehmet Arslan",
+        "Instructor_email": "sadiasalam62@gmail.com",
+        "price": "6000",
+        "Available_seat": "20",
+        "chk": "approved"
+    },
+    {
+        "name": "German Grammar",
+        "photo": "https://i.ibb.co/RgpPtZC/german.png",
+        "Instructor_name": "Sabine Müller",
+        "Instructor_email": "sadiasalam62@gmail.com",
+        "price": "4000",
+        "Available_seat": "50",
+        "chk": "approved"
+    },
+    {
+        "name": "Advanced French",
+        "photo": "https://i.ibb.co/kGrkwqk/frances.png",
+        "Instructor_name": "Sophie Martin",
+        "Instructor_email": "sadiasalam62@gmail.com",
+        "price": "3500",
+        "Available_seat": "33",
+        "chk": "approved"
+    },
+    {
+        "name": "Intermediate Russian",
+        "photo": "https://i.ibb.co/zHsb2Vr/eng.jpg",
+        "Instructor_name": "Svetlana Ivanova",
+        "Instructor_email": "sadiasalam62@gmail.com",
+        "price": "7000",
+        "Available_seat": "70",
+        "chk": "approved"
+    },
+    {
+        "name": "German Grammar",
+        "photo": "https://i.ibb.co/RgpPtZC/german.png",
+        "Instructor_name": "Sabine Müller",
+        "Instructor_email": "sadiasalam62@gmail.com",
+        "price": "4000",
+        "Available_seat": "50",
+        "chk": "approved"
+    },
+    {
+       
+        "name": "Mandarin for Beginners",
+        "photo": "https://i.ibb.co/ygHvvVH/chines.png",
+        "Instructor_name": "Li Wei",
+        "Instructor_email": "sadiasalam62@gmail.com",
+        "price": "6000",
+        "Available_seat": "60",
+        "chk": "approved"
+    }
+
+]
